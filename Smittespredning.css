@@ -1,0 +1,80 @@
+body{
+  font-family:Verdana;
+  background-color: lightgrey;
+  font-size: 15px;
+}
+
+.tittel{
+    color:lightblue;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 150px;
+    background-color: white;
+    border:15px solid white;
+    margin-left: 700px;
+    margin-right: 700px;
+
+}
+main
+  {
+    display:grid;
+    grid-template-columns:repeat(2,500px);
+    grid-column-gap:20px;
+    grid-row-gap:5px;
+    grid-auto-rows:minmax(60px,auto);
+    text-align: center;
+    background-color:lightgrey;
+    border:15px solid lightgrey;
+    border-radius: 150px;
+    margin-left: 450px;
+    margin-right: 450px;
+
+
+
+  }
+article
+{
+  background-color:lightgreen;
+  margin-bottom: 25px;
+  border-radius:20px;
+  font-size:20px;
+  text-align:center;
+  padding:20px;
+  color:purple;
+  box-shadow:7px 5px 3px black;
+  line-height:1,5px;
+
+}
+
+.tekst{
+  font-size:17px;
+  text-align:center;
+  padding:20px;
+  color:black;
+  box-shadow:7px 5px 3px black;
+  line-height:1,5px;
+}
+
+
+.bilder{
+  border:15px solid pink;
+  border-radius: 50px;
+  box-shadow:30px 20px 10px black;
+  height:50%;
+  margin:25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.tekst1{
+  text-align: center;
+  margin-right:500px;
+  margin-left:500px;
+}
+
+.tittel2{
+  margin-left: 500px;
+  margin-top: 50px;
+}
